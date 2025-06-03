@@ -90,6 +90,38 @@ body {
   position: relative;
 }
 
+.hero .content {
+  padding: 1.4rem 7%;
+  max-width: 60rem;
+}
+
+.hero .content h1 {
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(1, 1, 1, 0.5);
+  line-height: 1.2;
+}
+
+.hero .content h1 span {
+  color: var(--primary);
+}
+
+.hero .content p {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+
+.hero .content .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  color: #fff;
+  background-color: var(--primary);
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+}
+
 /* Media Queries */
 
 /* Laptop */
